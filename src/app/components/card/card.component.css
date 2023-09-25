@@ -1,0 +1,11 @@
+.card_container {
+    height: 100vh;
+}
+
+.card_container > img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
