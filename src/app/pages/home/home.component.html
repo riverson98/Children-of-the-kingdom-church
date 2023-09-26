@@ -1,3 +1,20 @@
 <div class="home_container">
-    <app-carousel></app-carousel>
+    <div class="home_carousel">
+        <app-carousel [images]="images" [autoSlide]="true"></app-carousel>
+    </div>
+    <div class="home_content">
+        <app-content photoSrc="https://s2-techtudo.glbimg.com/l81QdW7WsMN1O_FB7LEwyYz7OVk=/0x0:5472x3648/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/N/w/XlrhDySWOLFNwKPDF50g/biblia-maos.jpg" 
+        photoAlt="Biblia"
+        title="Igreja de Cristo"
+        description="Somos a Igreja de Cristo constituídas de famílias que foram alcançadas pelo mestre e agora O servem, levando outros conhecê-lo e amâ-lo."
+        ></app-content>
+        <app-content  
+        photoSrc="https://stcotvfoco.com.br/2023/04/Celular-1-1.jpg" 
+        photoAlt="segurando o celular"
+        title="Quer receber conteúdos exclusivos da igreja em primeira mão?"
+        description="Cadastre-se agora para ter acesso a notícias, eventos, pedidos de oração e muito mais para estreitar a sua conexão com a igreja."
+        [buttonIsVisible]="true">
+        </app-content>
+    </div>
 </div>
+
